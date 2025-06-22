@@ -11,7 +11,6 @@ class ScientificCalculator:
 
         self.expression = ""
         self.input_text = tk.StringVar()
-
         self.create_ui()
 
     def create_ui(self):
