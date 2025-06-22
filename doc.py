@@ -8,7 +8,6 @@ class ScientificCalculator:
         self.root.title("Scientific Calculator")
         self.root.geometry("400x650")
         self.root.configure(bg='black')
-
         self.expression = ""
         self.input_text = tk.StringVar()
         self.create_ui()
